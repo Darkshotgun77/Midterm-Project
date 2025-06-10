@@ -16,6 +16,7 @@ Table of Contents
 - Powerpoint Presentation
 - Template
 - Questions
+- Images
 - Global_Cybersecurity_Threats_2015-2024.csv
 
 
@@ -46,9 +47,8 @@ Objective specific visualization(s)
 
 
 Key Insights:
-    It's important to keep presentations short and sweet with minimal wording.
-
-Tell us what (if anything) you recommend
+    - It's important to keep presentations short and sweet with minimal wording.
+    - While information on my inital powerpoint was good; it was a bit too much and unfortunately made the messaging unclear.
 
 
 Tell us what future areas you might want/need to study:
