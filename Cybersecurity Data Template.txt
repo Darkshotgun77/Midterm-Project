@@ -1,0 +1,33 @@
+Value count template: 
+df_SocialEngineering_valuecounts = df_SocialEngineering['Attack Type'].value_counts()
+df_SocialEngineering_valuecounts
+
+BAR TEMPLATE
+fig, ax = plt.subplots(figsize = (20, 7))
+ax.bar(df_incident_resolution.index, df_incident_resolution['Incident Resolution Time (in Hours)'])
+
+Histogram TEMPLATE
+fig, ax = plt.subplots(figsize = (14, 7))
+ax.hist(df_Unpatched_software['Attack Type'], bins= 20, color='red')
+(
+ax.set_title('Unpatched Software', weight = 'bold'),
+ax.set_facecolor('#000000'),
+ax.set_xlabel('Types of Attacks'),
+ax.set_ylabel('Number Affected')
+)
+
+FORMAT Standard (make sure you put bars= before the ax.bar)
+plt.bar_label(bars, label_type = 'center', color = 'black', weight = 'bold', fontsize = '20')
+
+Pie Chart Template
+fig, ax = plt.subplots(figsize = (14, 7))
+fig.patch.set_facecolor('black')
+wedges, texts, autotexts = ax.pie(
+    df_attacksource_counts,
+    labels = df_attacksource_counts.index,
+    autopct='%1.1f%%',
+    textprops={'fontsize': 25, 'color': 'white'}
+    )
+ax.set_title('Who attacks the most', weight='bold', color='white')
+ax.set_facecolor('white')
+ax.axis('equal')

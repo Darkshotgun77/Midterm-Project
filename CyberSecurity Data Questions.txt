@@ -1,0 +1,31 @@
+1. Most common vulnerability types (Security Vulnerability Type):
+    Security Vulnerability (Main) Types: Zero-Day, Social Engineering, Unpatched Software, Weak Passwords
+    Attack Types: DDoS, Phishing, SQL Injection, Ransomware, Malware, Man-in-the-middle
+
+
+
+2. Most popular types of attacks (Attack Type and Attack Source):
+    a. What Attack Source uses certain kinds of attacks the most
+        Attack Types: DDoS, Phishing, SQL Injection, Ransomware, Malware, Man-in-the-middle
+        Attack Source: Nation-State, Unknown, Insider, Hacker Group
+
+
+
+3. The countries hit with cyber attacks the most: 
+        UK, Brazil, India, France
+
+
+
+4. The Industries that were hit the most financially: 
+        IT, Banking, Healthcare
+
+
+
+5. Most common Defense Mechanism Used: Antivirus, VPN, Encryption, Firewalls, AI-Based Detection
+    a. What is it defending against: 
+        DDoS, Phishing, SQL Injection, Ransomware, Malware, Man-in-the-middle
+
+
+
+6. Average time for incident resolution (Incident Resolution Time (In Hours)): Average = 36.476 ; Max = 72 ; Min = 1
+    a. Target industry: What took the longest to recover?: Government
